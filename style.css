@@ -1,0 +1,80 @@
+
+.headersection{
+    background-color: var(--bgblack);
+    height: 150px;
+}
+
+.workh2{
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.sitelogo{
+        width: 200px;
+        height: auto;
+}
+.bookdiv{
+    width: 90%;
+}
+
+@media (min-width: 576px) {
+    .workcard{
+        height: auto;
+        background-color: rgb(240, 235, 228);
+    }
+    .workh2{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .bookdiv{
+        width: 80%;
+    }
+    .sectionbookh1{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    
+ }
+
+ @media (min-width: 768px) {
+    .workh2{
+        font-size: 48px;
+        line-height: 48px;
+    }
+    .sectionbookh1{
+        font-size: 48px;
+        line-height: 48px;
+    }
+  }
+
+@media (min-width: 992px) {
+    .workcard{
+        background-color: rgb(240, 235, 228);
+    }
+    .workh2{
+        font-size: 58px;
+        line-height: 58px;
+    }
+    .bookdiv{
+        width: 60%;
+    }
+    .sectionbookh1{
+        font-size: 58px;
+        line-height: 58px;
+    }
+    .fullnamelabel{
+        width: 600px;
+        height: 40px;
+
+    }
+    .form{
+        padding: 8px 80px;
+    }
+ }
+ .errorspan{
+    color: red;
+ }
+ 
+
+
+
